@@ -1,0 +1,5 @@
+---
+- name: Install the Python PIP.
+  yum:
+    name: "{{ __mysql_package_name }}"
+    state: present

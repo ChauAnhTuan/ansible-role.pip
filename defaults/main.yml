@@ -1,0 +1,3 @@
+---
+pip_service_state: started
+pip_service_enabled: true
