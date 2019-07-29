@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: mysql-client
+    - ROLE_NAME: pip
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: ubuntu1804
