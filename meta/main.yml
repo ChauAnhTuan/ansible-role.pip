@@ -3,12 +3,12 @@ dependencies: []
 
 galaxy_info:
   author: "ansible-roles"
-  description: Mysql client for Linux.
+  description: pip for RedHat/Ubuntu/Debian
   company: "ansible-roles"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
   platforms:
-    - name: RedHat/Centos
+    - name: EL
       versions:
         - 6
         - 7
@@ -20,6 +20,5 @@ galaxy_info:
       versions:
         - 9
   galaxy_tags:
-    - database
-    - mysql
-    - rdbms
+    - python
+    - pip
