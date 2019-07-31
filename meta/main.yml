@@ -14,11 +14,11 @@ galaxy_info:
         - 7
     - name: Ubuntu
       versions:
-        - 16.04
-        - 18.04
+        - xenial
+        - bionic
     - name: Debian
       versions:
-        - 9
+        - stretch 
   galaxy_tags:
     - python
     - pip
