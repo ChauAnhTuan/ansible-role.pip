@@ -18,7 +18,7 @@ galaxy_info:
         - bionic
     - name: Debian
       versions:
-        - stretch 
+        - stretch
   galaxy_tags:
     - python
     - pip
