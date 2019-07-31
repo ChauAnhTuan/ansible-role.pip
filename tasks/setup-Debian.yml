@@ -1,6 +1,6 @@
 ---
 - name: Ensure Python PIP are installed.
   apt:
-    name: "{{ __pip_package_name }}"
+    name: "{{ pip_package }}"
     update_cache: true
     state: present
