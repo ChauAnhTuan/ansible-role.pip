@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: pip
   author: "ansible-roles"
   description: pip for RedHat/Ubuntu/Debian
   company: "ansible-roles"
