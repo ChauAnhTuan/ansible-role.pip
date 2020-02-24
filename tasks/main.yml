@@ -1,5 +1,9 @@
 ---
 # Setup/install tasks.
+- name: Include version-specific variables for Ubuntu.
+  include_vars: "{{ ansible_distribution }}.yml"
+  when: ansible_distribution == 'Ubuntu'
+
 - include_tasks: setup-RedHat.yml
   when: ansible_os_family == 'RedHat'
 
